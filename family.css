@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+body {
+  background-color: gold;
+  height: 100vh;
+  text-align: center;
+  font-family: Merriweather;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: white;
+  transition: all 1s ease; 
+}
+h1:hover{
+font-size: 35px;
+}
+p {
+  color: white;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+}
+.box {
+  width: 150px;
+}
+img {
+  width: 100%;
+  transition: all 1s ease;
+}
+img:hover{
+transform: scale(1.6) rotate(360deg);  
+
+}
+header {
+  padding: 20px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+footer {
+  color: white;
+  padding: 30px;
+  background-color: black;
+}
+h2 {
+  color: white;
+}
